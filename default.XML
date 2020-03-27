@@ -2,10 +2,12 @@
 <manifest>                                                                       
     <remote                                                                      
         name="origin"                                                            
-        fetch="ssh://git@github.com:emflaj11/SL_Project.git/"/>                                          
+        fetch="https://github.com/emflaj11/SL_Project.git
+/"/>                                          
     <remote                                                                      
         name="html5"                                                             
-        fetch="ssh://git@github.com:emflaj11/SL_Project.git/"                                            
+        fetch="https://github.com/emflaj11/SL_Project.git
+/"                                            
         review="review.gerrithub.io"/>                                           
     <default revision="master" remote="origin"/>                                 
                                                                                  
@@ -14,7 +16,7 @@
         name="emflaj11/bash"/>                                                  
     <project                                                                     
         path="c"                                                                 
-        name="emflaj11/C_Practice"/>                                            
+        name="emflaj11/SL_Project"/>                                            
     <project                                                                     
         path="html5"                                                             
         name="emflaj11/html5"                                                   
